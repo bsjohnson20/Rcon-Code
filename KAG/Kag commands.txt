@@ -1,0 +1,35 @@
+CPlayer@ ::getPlayerByUsername(string name)
+CPlayer@ CBlob@ getBlob()
+server_PutInInventory(CBlob@ blob)
+getInventoryBlob()
+
+getPlayerByUsername('bsjohnson2004').getBlob().getInventoryBlob().server_PutInInventory('bomb')
+
+a.getPlayerByUsername('bsjohnson2004');a.getInventoryBlob().server_PutInInventory('bomb')
+
+
+
+getPlayerByUsername('bsjohnson2004')
+
+getPlayerByUsername('bsjohnson2004').getBlob().server_SetActive(false)
+
+server_SetActive(bool false)
+
+getBlobByName('crate').getBlob().setPosition(Vec2f(99,99))
+
+DrawLine(Vec2f (0,0), Vec2f (0,30), SColor red)
+
+Vec2f a =getPlayerByUsername('bsjohnson2004').getBlob().getAimPos()=a;getBlobByName('crate').getBlob()=b.setPosition(Vec2f(a));
+
+/rcon getPlayerByUsername('bsjohnson2004').getBlob().server_AttachTo(CBlob@ server_CreateBlob('knight') , const string&in name)
+
+server_AttachTo(CBlob@ blob, const string&in name)
+
+server_CreateBlob(const string&in)
+
+Vec2f a = getPlayerByUsername('bsjohnson2004').getBlob().getAimPos(); 
+
+for( int n = 0; n < 1; n++ ) {CBlob@ c = server_CreateBlob('ballistabolt');c.setPosition(getPlayerByUsername('Zaniac').getBlob().getAimPos());c.setVelocity(Vec2f(-20,-3));}
+
+server_SetPlayer(CPlayer@ player)
+

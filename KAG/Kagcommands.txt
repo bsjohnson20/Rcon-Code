@@ -1,0 +1,53 @@
+
+getBlobByName('crate').server_SetHealth(1000)
+server_CreateBlob(const string&in, int team, Vec2f Position)
+n.SendCommand(n.getCommandID('activate')
+getPlayerByUsername('bsjohnson2004').getBlob().server_SetHealth(1000)
+CBlob@ p=getPlayerByUsername('bsjohnson2004').getBlob().getPosition();CBlob@ a= server_CreateBlob('keg',0,p).SendCommand(a.getCommandID('activate'));
+CBlob@ p=getPlayerByUsername('bsjohnson2004').getBlob();server_CreateBlob('archer',0,p.getAimPos());getBlobByName('chicken').server_AttachTo(p)
+a
+/rcon for(int a=0;a<25;a++){ Vec2f p=getPlayerByUsername('bsjohnson2004').getBlob().getPosition();CBlob@ a =server_CreateBlob('keg',0,p);a.SendCommand(a.getCommandID('activate'));};
+/rcon Vec2f p=getPlayerByUsername('bsjohnson2004').getBlob().getPosition();CBlob@ a =server_CreateBlob('keg',0,p);a.server_SetQuantity(50);a.SendCommand(a.getCommandID('activate'))
+/rcon for(int a=0;a<25;a++;){Vec2f p=getPlayerByUsername('bsjohnson2004').getBlob().getPosition();CBlob@ a =server_CreateBlob('mine',0,p);a.SendCommand(a.getCommandID('activate'));};
+;{Vec2f p=getPlayerByUsername('bsjohnson2004').getBlob().getPosition();CBlob@ a =server_CreateBlob('keg',0,p);};
+CBlob@ a =server_CreateBlob('keg',0,Vec2f(30,30));a.SendCommand(a.getCommandID('activate'));
+SetAmbientLight(SColor color_black)
+Vec2f p=getPlayerByUsername('bsjohnson2004').getBlob().getPosition();ParticleZombieLightning(p)
+CBlob@ h=getPlayerByUsername('bsjohnson2004').getBlob();Vec2f a= h.getPosition();int c =h.getTeamNum(); CBlob@ b = server_CreateBlob('dinghy', c, a);b.server_SetHealth(100000)
+a
+CBlob@ p=getPlayerByUsername('bsjohnson2004').getBlob()
+CBlob@ p=getPlayerByUsername('Osmal').getBlob();server_CreateBlob('archer',0,p.getAimPos());getBlobByName('chicken').server_AttachTo(p)
+/rcon CBlob@ p=getPlayerByUsername('Osmal').getBlob();CBlob@ b = server_CreateBlob('necromancer',0,p.getAimPos()); b.server_Pickup(p);
+/rcon CBlob@ p=getPlayerByUsername('bsjohnson2004').getBlob();CBlob@ b = server_CreateBlob('knight',0,p.getAimPos()); b.server_Pickup(p);b.server_SetTimeToDie(0.5);
+getBlobByName('tank').server_SetTimeToDie(10);
+CBlob@ p=getBlobByName('Osmal');CBlob@ b = server_CreateBlob('archer',0,p.getAimPos());
+CBlob@ p=getBlobByName('bsjohnson2004');CBlob@ b = server_CreateBlob('knight',0,p.getAimPos());
+CBlob@ p=getPlayerByUsername('bsjohnson2004').getBlob();CBlob@ b = server_CreateBlob('spikes',0,p.getAimPos());
+/rcon CBlob@ p=getPlayerByUsername('bsjohnson2004').getBlob();string t = p.getCarriedBlob().getName();CBlob@ b = server_CreateBlob(t,0,p.getAimPos());
+CPlayer@ player=getPlayerByUsername('Zaniac');CBlob@ blob=player.getBlob();CBlob@ test = server_CreateBlobNoInit('saw');test.setPosition(blob.getPosition());blob.server_Die();test.Init();test.server_SetPlayer(player);test.server_setTeamNum(player.getTeamNum());test.server_SetHealth(1000)
+for( int n = 0; n < 1; n++ ) {CBlob@ c = server_CreateBlob('bomb');c.setPosition(getPlayerByUsername('Zaniac').getBlob().getAimPos());c.setVelocity(Vec2f(20,-3));}
+getPlayerByUsername('bsjohnson2004').getBlob().isCollidable(false)
+
+Change head
+
+change sex:
+getPlayerByUsername('ShulkeroGamesYT').getBlob().setSexNum(1)
+
+
+Lists:
+Get blobs in range
+getBlobsInRadius(Vec2f posWorldspace, float radius, CBlob@[]@ list)
+
+Vec2f p=getPlayerByUsername('bsjohnson2004').getBlob().getPosition();getBlobsInRadius(p, float(5), CBlob@[]@(x))
+
+Set coins:
+ getPlayerByUsername('bsjohnson2004').server_setCoins(99999)
+
+/rcon Vec2f p=getPlayerByUsername('ShulkeroGamesYT').getBlob().getPosition();CBlob@ a =server_CreateBlob('saw',0,p);a.server_SetQuantity(5);
+
+Disable mouse:
+getPlayerByUsername('bsjohnson2004').DisableMouse(true)
+
+/rcon CBlob@ b=getPlayerByUsername('bsjohnson2004').getBlob(); b.server_Pickup(getPlayerByUsername('VooDoo_').getBlob());
+
+/rcon CBlob@ p=getPlayerByUsername('bsjohnson2004').getBlob();CBlob@ b = server_CreateBlob('knight',0,p.getAimPos()); b.server_Pickup(p);b.server_SetTimeToDie(0.5);
